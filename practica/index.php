@@ -5,19 +5,23 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 	<script type="text/javascript" src="jquery.js"></script>
-	<script type="text/javascrip" src="index.js"></script>
-	<link rel="stylesheet" type="text/css" href="index.css">
+	<script type="text/javascrip" src="index1.js"></script>
+	<link rel="stylesheet" type="text/css" href="index1.css">
 </head>
 <body>
 	<div class="container">
 		<div class="row">
+			<div class="col col-6">
 			<input type="button" name="controlc" value="Copiar" class="col-1 btn btn-outline-primary">
 			<input type="button" name="controlv" value="Pegar " class="col-1 btn btn-outline-success">
 			<input type="button" name="controlx" value="Cortar" class="col-1 btn btn-outline-danger">
-			<input type="button" class="btn btn-primary"></div>
-			<input type="button" class="btn btn-secondary text-white"></div>
-			<input type="button" class="btn btn-success text-white"></div>
-			<input type="button" class="btn btn-danger text-white"></div>
+		</div>
+		<div>
+			<input type="button" class="btn btn-primary">
+			<input type="button" class="btn btn-secondary text-white">
+			<input type="button" class="btn btn-success text-white">
+			<input type="button" class="btn btn-danger text-white">
+		</div>
 		</div>
 		
 		<div id="bloque" class="bloc">
