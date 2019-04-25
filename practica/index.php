@@ -23,7 +23,7 @@
 			<input type="button" class="btn btn-danger text-white">
 		</div>
 		</div>
-				<table cellpadding="0" cellspacing="0">
+				<table class="table table-bordered table-dark">
 					<?php
 						$L = array("A","B","C","D","E","F","G","H","I","J","K","L","M","N","Ñ","O","P","Q","R","S","T","U","V","W","X","Y","Z");	
 						echo "<tr bgcolor='#ccc'>
@@ -44,7 +44,6 @@
 					?>					
 				</table>				
 			</div>
-			&nbsp;
 		</div>
 	</div>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
