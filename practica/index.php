@@ -23,36 +23,6 @@
 			<input type="button" class="btn btn-danger text-white">
 		</div>
 		</div>
-		
-		<div id="bloque" class="row">
-			<div id="bloque_celdas" class="col col-12"> 
-			<table class="table table-bordered table-dark">
-				<?php
-					$L = array("#","A","B","C","D","E","F","G","H","I","J","K","L","M","N","Ñ","O","P","Q","R","S","T","U","V","W","X","Y","Z");	
-				?>				
-				<thead>
-					<tr>
-					<?php
-					foreach($l as $valor){
-						echo "<td>$valor</td>"
-					}
-					?>
-					</tr>
-				</thead>
-				<tbody>
-				<?php
-					foreach($i, $i<=50, $i++){ ?>
-					<tr>
-						<th scope="row"><?php $i ?></th>
-						<?php foreach($l as $valor){
-							echo "<td></td>"
-						}
-						?>
-					</tr>
-					
-					<?php }?>
-				</tbody>
-			</table>			
 				<table cellpadding="0" cellspacing="0">
 					<?php
 						$L = array("A","B","C","D","E","F","G","H","I","J","K","L","M","N","Ñ","O","P","Q","R","S","T","U","V","W","X","Y","Z");	

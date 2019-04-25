@@ -11,3 +11,35 @@ table tr td {  text-align: center; border: #D4D4D4 solid 1px }
 .celda:hover{  cursor: crosshair; border: #000 solid 1px; }
 table{border: solid 1px #666}
 .cuadro_texto{ height: 20px; width: 80px; background-color: #f0f0f0; }
+
+/*
+	<div id="bloque" class="row">
+			<div id="bloque_celdas" class="col col-12"> 
+			<table class="table table-bordered table-dark">
+				<?php
+					$L = array("#","A","B","C","D","E","F","G","H","I","J","K","L","M","N","Ñ","O","P","Q","R","S","T","U","V","W","X","Y","Z");	
+				?>				
+				<thead>
+					<tr>
+					<?php
+					foreach($l as $valor){
+						echo "<td>$valor</td>"
+					}
+					?>
+					</tr>
+				</thead>
+				<tbody>
+				<?php
+					foreach($i, $i<=50, $i++){ ?>
+					<tr>
+						<th scope="row"><?php $i ?></th>
+						<?php foreach($l as $valor){
+							echo "<td></td>"
+						}
+						?>
+					</tr>
+					
+					<?php }?>
+				</tbody>
+			</table>
+*/
