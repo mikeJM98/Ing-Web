@@ -33,22 +33,24 @@
 				<thead>
 					<tr>
 					<?php
-					foreach($l as $valor)
-					echo "<td>$valor</td>"
+					foreach($l as $valor){
+						echo "<td>$valor</td>"
+					}
 					?>
 					</tr>
 				</thead>
 				<tbody>
 				<?php
-					foreach($i, $i<=50, $i++) ?>
+					foreach($i, $i<=50, $i++){ ?>
 					<tr>
 						<th scope="row"><?php $i ?></th>
-						<?php foreach($l as $valor)
+						<?php foreach($l as $valor){
 							echo "<td></td>"
+						}
 						?>
 					</tr>
 					
-					?>
+					<?php }?>
 				</tbody>
 			</table>			
 				<table cellpadding="0" cellspacing="0">
