@@ -5,6 +5,7 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 	<script type="text/javascript" src="jquery.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 	<script type="text/javascrip" src="index1.js"></script>
 	<link rel="stylesheet" type="text/css" href="index1.css">
 </head>
@@ -15,9 +16,9 @@
 			<input type="button" name="copiar" value="Copiar" class="btn btn-outline-primary">
 			<input type="button" name="pegar" value="Pegar " class="btn btn-outline-success">
 			<input type="button" name="cortar" value="Cortar" class="btn btn-outline-danger">
-			<input type="button" name="negrita" value="Negrita" class="btn btn-outline-primary">
-			<input type="button" name="mas" value="Mas " class="btn btn-outline-success">
-			<input type="button" name="menos" value="Menos" class="btn btn-outline-danger">
+			<input type="button" name="negrita" value="Negrita" class="btn btn-outline-dark">
+			<input type="button" name="mas" value=" + " class="btn btn-outline">
+			<input type="button" name="menos" value=" - " class="btn btn-outline">
 		</div>
 		<div class="col col-6">
 			<h4>Colores</h4>
