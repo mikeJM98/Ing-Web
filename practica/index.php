@@ -42,7 +42,7 @@
 							 		echo "<tr>
 							 			<td> $i </td>";
 									    foreach ($abc as $valor){
-									    	echo "<td class='input-group flex-nowrap'><input type='text' name='' id='' class='form-control'></td>";
+									    	echo "<td class='input-group'><input type='text' name='' id='' class='form-control'></td>";
 								}
 							echo "</tr>";
 						}
