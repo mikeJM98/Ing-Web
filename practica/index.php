@@ -11,17 +11,13 @@
 <body>
 	<div class="container">
 		<div class="row">
-			<div id="btn btn-primary">
-				<input type="button" name="controlc" value="Copiar" class="btn btn-outline-primary">
-				<input type="button" name="controlv" value="Pegar " class="btn btn-outline-success">
-				<input type="button" name="controlx" value="Cortar" class="btn btn-outline-danger">
-
-				<input type="button" class="p-3 mb-2 bg-primary text-white"></div>
-				<input type="button" class="p-3 mb-2 bg-secondary text-white"></div>
-				<input type="button" class="p-3 mb-2 bg-success text-white"></div>
-				<input type="button" class="p-3 mb-2 bg-danger text-white"></div>
-				
-			</div>
+			<input type="button" name="controlc" value="Copiar" class="btn btn-outline-primary">
+			<input type="button" name="controlv" value="Pegar " class="btn btn-outline-success">
+			<input type="button" name="controlx" value="Cortar" class="btn btn-outline-danger">
+			<input type="button" class="p-3 mb-2 bg-primary text-white"></div>
+			<input type="button" class="p-3 mb-2 bg-secondary text-white"></div>
+			<input type="button" class="p-3 mb-2 bg-success text-white"></div>
+			<input type="button" class="p-3 mb-2 bg-danger text-white"></div>
 		</div>
 		
 		<div id="bloque" class="bloc">
