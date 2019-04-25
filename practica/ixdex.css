@@ -1,0 +1,13 @@
+#cuerpo{display: block; width: 1070px; border: 1px solid #000; margin-left: 7%;}
+header{ background-color: #E0CEBB; text-align: center}
+input{ border:#f0f0f0 solid 1px; height: 40px; cursor: pointer;   }
+.bloc{ display: block; }
+#bloque{ background-color: #ddd; vertical-align: top; }
+#bloque_celdas{ background-color: #fff; margin: 10px 30px 10px 30px; padding: 3px; overflow: scroll; display: block; width: 1000px; height: 500px; }
+table{ width: 2000px;  }
+table tr td {  text-align: center; border: #D4D4D4 solid 1px }
+.cab{ cursor:pointer; font-weight: bold; }
+.cab:hover{ background-color: #666 }
+.celda:hover{  cursor: crosshair; border: #000 solid 1px; }
+table{border: solid 1px #666}
+.cuadro_texto{ height: 20px; width: 80px; background-color: #f0f0f0; }
