@@ -9,17 +9,16 @@
 	<link rel="stylesheet" type="text/css" href="index.css">
 </head>
 <body>
-	<div id="cuerpo">
-		<header>Libro1 - Excel</header>
+	<div id="cuerpo1">
 		<div id="btn btn-primary">
 			<input type="button" name="controlc" value="Copiar" class="btn btn-outline-primary">
-			<input type="button" name="controlv" value="Pegar " class="btn btn-outline-succes">
-			<input type="button" name="controlx" value="Cortar" class="btn btn-outline-primary">
+			<input type="button" name="controlv" value="Pegar " class="btn btn-outline-success">
+			<input type="button" name="controlx" value="Cortar" class="btn btn-outline-danger">
 
-			<input type="button" name="color1" value="  " style="background-color: red">
-			<input type="button" name="color2" value="  " style="background-color: blue">
-			<input type="button" name="color3" value="  " style="background-color: yellow">
-			<input type="button" name="color4" value="  " style="background-color: green"><hr>
+			<input type="button" name="color1" value="  " style="bg-danger">
+			<input type="button" name="color2" value="  " style="bg-primary">
+			<input type="button" name="color3" value="  " style="bg-warning">
+			<input type="button" name="color4" value="  " style="bg-secundary"><hr>
 		</div>
 		<div id="bloque" class="bloc">
 			&nbsp;
