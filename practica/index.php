@@ -23,21 +23,21 @@
 			<input type="button" class="btn btn-danger text-white">
 		</div>
 		</div>
-				<table class="table table-bordered table-dark">
+				<table class="table table-bordered">
 					<?php
-						$L = array("A","B","C","D","E","F","G","H","I","J","K","L","M","N","Ñ","O","P","Q","R","S","T","U","V","W","X","Y","Z");	
-						echo "<tr bgcolor='#ccc'>
-							<td width='20px'></td>";
-							 	foreach($L as $let){
-							 		echo "<td width='80px' class='cab' data-valor='$let' data-pos='arriba' height='20px' id='cel_$let'> $let </td>";	
+						$abc = array("A","B","C","D","E","F","G","H","I","J","K","abc","M","N","Ñ","O","P","Q","R","S","T","U","V","W","X","Y","Z");	
+						echo "<tr>
+							<td>#</td>";
+							 	foreach($abc as $valor){
+							 		echo "<td> $valor </td>";	
 							 	}
 							 	echo "</tr>";
 
 								for($i=1; $i<=50; $i++){
 							 		echo "<tr>
-							 			<td bgcolor='#ccc'  data-valor='$i' data-pos='izquierda'  class='cab' id='cel_$i'> $i </td>";
-									    foreach ($L as $let){
-									    	echo "<td width='80px' height='20px' class='celda' data-letra='$let' data-num='$i' id='$let$i'></td>";
+							 			<td> $i </td>";
+									    foreach ($abc as $valor){
+									    	echo "<td></td>";
 								}
 							echo "</tr>";
 						}
