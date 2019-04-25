@@ -14,7 +14,7 @@
 			<div class="col col-6">
 			<input type="button" name="controlc" value="Copiar" class="btn btn-outline-primary">
 			<input type="button" name="controlv" value="Pegar " class="btn btn-outline-success">
-			<input type="button" name="controlx" value="Cortar" class="btn-outline-danger">
+			<input type="button" name="controlx" value="Cortar" class="btn btn-outline-danger">
 		</div>
 		<div class="col col-6">
 			<input type="button" class="btn btn-primary">
@@ -24,9 +24,33 @@
 		</div>
 		</div>
 		
-		<div id="bloque" class="bloc">
-			&nbsp;
-			<div id="bloque_celdas" class="bloc"> 			
+		<div id="bloque" class="row">
+			<div id="bloque_celdas" class="col col-12"> 
+			<table class="table table-bordered table-dark">
+				<?php
+					$L = array("#","A","B","C","D","E","F","G","H","I","J","K","L","M","N","Ñ","O","P","Q","R","S","T","U","V","W","X","Y","Z");	
+				?>				
+				<thead>
+					<tr>
+					<?php
+					foreach($l as $valor)
+					echo "<td>$valor</td>"
+					?>
+					</tr>
+				</thead>
+				<tbody>
+				<?php
+					foreach($i, $i<=50, $i++) ?>
+					<tr>
+						<th scope="row"><?php $i ?></th>
+						<?php foreach($l as $valor)
+							echo "<td></td>"
+						?>
+					</tr>
+					
+					?>
+				</tbody>
+			</table>			
 				<table cellpadding="0" cellspacing="0">
 					<?php
 						$L = array("A","B","C","D","E","F","G","H","I","J","K","L","M","N","Ñ","O","P","Q","R","S","T","U","V","W","X","Y","Z");	
@@ -37,7 +61,7 @@
 							 	}
 							 	echo "</tr>";
 
-								for($i=1; $i<=100; $i++){
+								for($i=1; $i<=50; $i++){
 							 		echo "<tr>
 							 			<td bgcolor='#ccc'  data-valor='$i' data-pos='izquierda'  class='cab' id='cel_$i'> $i </td>";
 									    foreach ($L as $let){
