@@ -8,15 +8,14 @@
 	<script type="text/javascrip" src="index.js"></script>
 	<link rel="stylesheet" type="text/css" href="index.css">
 </head>
-<body class="p-3 mb-2 bg-primary text-white">
+<body>
 	<div id="cuerpo">
 		<header>Libro1 - Excel</header>
-		<div id="botones">
-			<input type="button" name="controlc" value="Copiar">
-			<input type="button" name="controlv" value="Pegar ">
-			<input type="button" name="controlx" value="Cortar">
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<div id="btn btn-primary">
+			<input type="button" name="controlc" value="Copiar" class="btn btn-outline-primary">
+			<input type="button" name="controlv" value="Pegar " class="btn btn-outline-succes">
+			<input type="button" name="controlx" value="Cortar" class="btn btn-outline-primary">
+
 			<input type="button" name="color1" value="  " style="background-color: red">
 			<input type="button" name="color2" value="  " style="background-color: blue">
 			<input type="button" name="color3" value="  " style="background-color: yellow">
