@@ -16,14 +16,10 @@
 				<input type="button" name="controlv" value="Pegar " class="btn btn-outline-success">
 				<input type="button" name="controlx" value="Cortar" class="btn btn-outline-danger">
 
-				<input type="button" name="color1" value="  " style="bg-danger">
-				<input type="button" name="color2" value="  " style="bg-primary">
-				<input type="button" name="color3" value="  " style="bg-warning">
-				<input type="button" name="color4" value="  " style="bg-secundary"><hr>
-				<div class="p-3 mb-2 bg-primary text-white"></div>
-				<div class="p-3 mb-2 bg-secondary text-white">.bg-secondary</div>
-				<div class="p-3 mb-2 bg-success text-white">.bg-success</div>
-				<div class="p-3 mb-2 bg-danger text-white">.bg-danger</div>
+				<input type="button" class="p-3 mb-2 bg-primary text-white"></div>
+				<input type="button" class="p-3 mb-2 bg-secondary text-white"></div>
+				<input type="button" class="p-3 mb-2 bg-success text-white"></div>
+				<input type="button" class="p-3 mb-2 bg-danger text-white"></div>
 				
 			</div>
 		</div>
