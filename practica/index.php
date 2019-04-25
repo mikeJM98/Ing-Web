@@ -12,11 +12,11 @@
 	<div class="container">
 		<div class="row">
 			<div class="col col-6">
-			<input type="button" name="controlc" value="Copiar" class="col-1 btn btn-outline-primary">
-			<input type="button" name="controlv" value="Pegar " class="col-1 btn btn-outline-success">
-			<input type="button" name="controlx" value="Cortar" class="col-1 btn btn-outline-danger">
+			<input type="button" name="controlc" value="Copiar" class="btn btn-outline-primary">
+			<input type="button" name="controlv" value="Pegar " class="btn btn-outline-success">
+			<input type="button" name="controlx" value="Cortar" class="btn-outline-danger">
 		</div>
-		<div>
+		<div class="col col-6">
 			<input type="button" class="btn btn-primary">
 			<input type="button" class="btn btn-secondary text-white">
 			<input type="button" class="btn btn-success text-white">
