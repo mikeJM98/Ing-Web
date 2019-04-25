@@ -21,13 +21,13 @@
 			<input type="button" name="menos" value=" - " class="btn btn-outline">
 		</div>
 		<div class="col col-6">
-			<h4>Colores</h4>
 			<input type="button" class="btn btn-primary">
 			<input type="button" class="btn btn-secondary text-white">
 			<input type="button" class="btn btn-success text-white">
 			<input type="button" class="btn btn-danger text-white">
 		</div>
 		</div>
+		<input type="text" name="" id="">
 				<table class="table table-bordered">
 					<?php
 						$abc = array("A","B","C","D","E","F","G","H","I","J","K","L","M","N","Ñ","O","P","Q","R","S","T","U","V","W","X","Y","Z");	
@@ -42,7 +42,7 @@
 							 		echo "<tr>
 							 			<td> $i </td>";
 									    foreach ($abc as $valor){
-									    	echo "<td></td>";
+									    	echo "<input type="text" name="" id="">";
 								}
 							echo "</tr>";
 						}
