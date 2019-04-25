@@ -42,7 +42,7 @@
 							 		echo "<tr>
 							 			<td> $i </td>";
 									    foreach ($abc as $valor){
-									    	echo "<input type='text' name='' id=''>";
+									    	echo "<td><input type='text' name='' id='' class='form-control'></td>";
 								}
 							echo "</tr>";
 						}
