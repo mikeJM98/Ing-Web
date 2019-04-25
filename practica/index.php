@@ -12,11 +12,15 @@
 	<div class="container">
 		<div class="row">
 			<div class="col col-6">
-			<input type="button" name="controlc" value="Copiar" class="btn btn-outline-primary">
-			<input type="button" name="controlv" value="Pegar " class="btn btn-outline-success">
-			<input type="button" name="controlx" value="Cortar" class="btn btn-outline-danger">
+			<input type="button" name="copiar" value="Copiar" class="btn btn-outline-primary">
+			<input type="button" name="pegar" value="Pegar " class="btn btn-outline-success">
+			<input type="button" name="cortar" value="Cortar" class="btn btn-outline-danger">
+			<input type="button" name="negrita" value="Negrita" class="btn btn-outline-primary">
+			<input type="button" name="mas" value="Mas " class="btn btn-outline-success">
+			<input type="button" name="menos" value="Menos" class="btn btn-outline-danger">
 		</div>
 		<div class="col col-6">
+			<h4>Colores</h4>
 			<input type="button" class="btn btn-primary">
 			<input type="button" class="btn btn-secondary text-white">
 			<input type="button" class="btn btn-success text-white">
@@ -25,7 +29,7 @@
 		</div>
 				<table class="table table-bordered">
 					<?php
-						$abc = array("A","B","C","D","E","F","G","H","I","J","K","abc","M","N","Ñ","O","P","Q","R","S","T","U","V","W","X","Y","Z");	
+						$abc = array("A","B","C","D","E","F","G","H","I","J","K","L","M","N","Ñ","O","P","Q","R","S","T","U","V","W","X","Y","Z");	
 						echo "<tr>
 							<td>#</td>";
 							 	foreach($abc as $valor){
